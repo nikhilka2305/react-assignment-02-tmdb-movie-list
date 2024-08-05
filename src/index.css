@@ -1,0 +1,39 @@
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+}
+
+@font-face {
+	font-family: VectorHeavy;
+	src: local("MeonMedium"), url("./assets/Neon-Medium.ttf"), format("truetype");
+}
+
+body {
+	background-color: #38f8d8 !important;
+	margin: 0;
+	box-sizing: border-box;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+h1,
+h2,
+h4 {
+	font-family: "VectorHeavy", sans-serif;
+	letter-spacing: 0.2em;
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	font-size: 10px;
+	width: 100%;
+	display: flex;
+	font-family: "VectorHeavy", sans-serif;
+}
+
+.footer h5 {
+	margin: 0.25em auto;
+}

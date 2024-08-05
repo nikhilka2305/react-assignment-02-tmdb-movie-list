@@ -1,0 +1,11 @@
+.list-chooser {
+	width: 250px;
+}
+
+.heading-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 10em;
+	flex-wrap: wrap;
+	align-items: center;
+}
