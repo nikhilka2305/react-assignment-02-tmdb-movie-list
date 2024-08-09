@@ -18,7 +18,7 @@ export default function Header({ listChoice, changeListHandler }) {
 							/>
 						</Link>
 					</div>
-					<div className="col-sm-12 col-md-4 my-1 d-flex align-items-center">
+					<div className="col-sm-12 col-md-4 my-1 d-flex align-items-center justify-content-center">
 						<h4>Your Favourite Movie DB</h4>
 					</div>
 					<div className="col-sm-12 col-md-4 my-1">
