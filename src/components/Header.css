@@ -5,3 +5,7 @@
 h1 {
 	margin: auto 0;
 }
+
+.navbar-content {
+	width: 100%;
+}
